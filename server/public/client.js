@@ -4,6 +4,7 @@ $(document).ready(getCompanies());
 // Ensuring that client.js is sourced correctly
 console.log("In js");
 
+
 // Global variables
 let companies = [];
 let guests = [];
@@ -96,7 +97,7 @@ function getCompanies() {
             // loop cycles through response data, creates each new entry as an object of the Company class,
             // and pushes it to the companies array
             for (let i = 0; i < response.length; i++) {
-                let company = new Company(response[i].company, response[i].city, response[i].timezone)
+                let company = new Company(response[i].company, response[i].city, response[i].timezone);
                 companies.push(company)
             }
             console.log("Companies array", companies); 

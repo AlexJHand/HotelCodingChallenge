@@ -8,7 +8,7 @@ First, node package manager needs to be installed. In the terminal, navigate to 
 
 Then to run the program, use the command ``npm start``.
 
-At this point, the server should be running, and to run the program, simply open the index.html file in a browser.
+At this point, the server should be running, and to run the program, simply open a browser and type ```http://localhost:4300/``` into the url.
 
 ### Design Decisions
 
