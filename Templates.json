@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Check-In",
+        "text": "Good checkIn, firstName, and welcome to the hotelName! Room roomNumber is now ready you. Enjoy your stay, and let us know if you need anything."
+    },
+    {
+        "id": 2,
+        "name": "Check-Out",
+        "text": "Good checkOut, firstName. Thank you for staying at the hotelName! We appreciate your business and hope to see you again soon."
+    },
+    {
+        "id": 3,
+        "name": "Custom Template",
+        "text": ""
+    }
+]

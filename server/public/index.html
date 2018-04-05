@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Coding Challenge</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Hotel Coding Challenge</h2>
+    </header>
+    <main>
+        <form action="" class="messageForm">
+        <select name="guest" id="guestSelect" class="formSelect">
+            <option value="" disabled selected>Guests</option>
+        </select>
+        <select name="hotel" id="hotelSelect" class="formSelect">
+            <option value="" disabled selected>Hotels</option>
+        </select>
+        <select name="templates" id="templateSelect" class="formSelect">
+            <option value="" disabled selected>Templates</option>
+        </select>
+        </form>
+    <button id="messageButton" onclick="inputMessage()">Build Message</button>
+    <div id="messageDisplay"></div>
+    </main>
+    <footer></footer>
+</body>
+</html>
